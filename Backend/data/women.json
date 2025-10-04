@@ -1,0 +1,11 @@
+[
+  { "id": 10, "name": "Kurtas & Kurtis", "price": 699, "image": "/images/women/1.jpg" },
+  { "id": 11, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/2.jpg" },
+  { "id": 12, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/3.jpg" },
+  { "id": 13, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/4.jpg" },
+  { "id": 14, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/5.jpg" },
+  { "id": 15, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/6.jpg" },
+  { "id": 16, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/7.jpg" },
+  { "id": 17, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/8.jpg" },
+  { "id": 18, "name": "Kurtas & Kurtis", "price": 899, "image": "/images/women/9.jpg" }
+]

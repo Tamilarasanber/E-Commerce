@@ -1,0 +1,12 @@
+
+[
+  { "id": 19, "name": "Watch", "price": 900, "image": "/images/accessories/1.jpg" },
+  { "id": 20, "name": "Jewelz", "price": 600, "image": "/images/accessories/2.jpg" },
+  { "id": 21, "name": "Jewelz", "price": 650, "image": "/images/accessories/3.jpg" },
+  { "id": 22, "name": "Perfume", "price": 899, "image": "/images/accessories/4.jpg" },
+  { "id": 23, "name": "Cup", "price": 230, "image": "/images/accessories/5.jpg" },
+  { "id": 24, "name": "Sunglasses", "price": 899, "image": "/images/accessories/6.jpg" },
+  { "id": 25, "name": "Spaces", "price": 899, "image": "/images/accessories/7.jpg" },
+  { "id": 26, "name": "Hair oil", "price": 899, "image": "/images/accessories/8.jpg" },
+  { "id": 27, "name": "Rosemoore", "price": 1851, "image": "/images/accessories/9.jpg" }
+]

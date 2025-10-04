@@ -1,0 +1,11 @@
+[
+  { "id": 1, "name": "Men Shirt", "price": 1200, "image": "/images/men/1.jpg" },
+  { "id": 2, "name": "Men Shirt", "price": 899, "image": "/images/men/2.jpg" },
+  { "id": 3, "name": "Men T-Shirt", "price": 600, "image": "/images/men/3.jpg" },
+  { "id": 4, "name": "Men Shirt", "price": 899, "image": "/images/men/4.jpg" },
+  { "id": 5, "name": "Men T-Shirt", "price": 600, "image": "/images/men/5.jpg" },
+  { "id": 6, "name": "Jacket", "price": 899, "image": "/images/men/6.jpg" },
+  { "id": 7, "name": "Jeans", "price": 1400, "image": "/images/men/7.jpg" },
+  { "id": 8, "name": "Jacket", "price": 1025, "image": "/images/men/8.jpg" },
+  { "id": 9, "name": "Jacket", "price": 1250, "image": "/images/men/9.jpg" }
+]
