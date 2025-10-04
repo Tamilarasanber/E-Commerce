@@ -10,7 +10,9 @@ const Women = () => {
     
        const productAPIWommen = async()=> {
       try{
-        const res = await fetch("http://localhost:5000/api/products/women")
+       
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/women`)
+
       if(!res.ok){
         throw new Error("response is not ok")
       }

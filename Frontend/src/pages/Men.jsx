@@ -9,7 +9,7 @@ const Men = () => {
   useEffect(() => {
     const productAPIMen = async()=> {
       try{
-        const res = await fetch('http://localhost:5000/api/products/men')
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/men`)
       if(!res.ok){
         throw new Error("response is not ok")
       }

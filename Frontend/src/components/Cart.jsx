@@ -19,10 +19,11 @@ const Cart = () => {
         {cart.items.map(item => (
           <div key={item.id} className="flex items-center border rounded p-4">
             <img
-              src={`http://localhost:5000${item.image}`}
-              alt={item.name}
-              className="h-20 w-20 object-cover object-top mr-4"
-            />
+  src={`${import.meta.env.VITE_API_URL}${item.image}`}
+  alt={item.name}
+  className="h-20 w-20 object-cover object-top mr-4"
+/>
+
             <div className="flex-grow">
               <h3 className="font-semibold">{item.name}</h3>
               <p>₹{item.price.toFixed(2)}</p>

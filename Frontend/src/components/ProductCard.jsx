@@ -21,7 +21,8 @@ const ProductCard = ({ product }) => {
 
   return (
     <div className="border rounded p-4 flex flex-col">
-      <img src={`http://localhost:5000${product.image}`} alt={product.name} className="mb-4" width="309" height="400" />
+      <img src={`${import.meta.env.VITE_API_URL.replace('/api/products','')}${product.image}`} alt={product.name} className="mb-4" width="309" height="400" />
+
       <h3 className="font-semibold mb-2">{product.name}</h3>
       <p className="text-lg mb-1">₹{product.price.toFixed(2)}</p>
       <p className="text-sm text-gray-500 mb-4 capitalize">{product.category || 'Uncategorized'}</p>

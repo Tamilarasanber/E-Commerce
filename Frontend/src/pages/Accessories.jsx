@@ -11,7 +11,9 @@ const Accessories = () => {
    
      const accessoriesAPI = async()=> {
       try{
+        
         const res = await fetch('http://localhost:5000/api/products/accessories')
+
       if(!res.ok){
         throw new Error("response is not ok")
       }
