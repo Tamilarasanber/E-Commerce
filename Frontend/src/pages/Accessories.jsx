@@ -11,8 +11,7 @@ const Accessories = () => {
    
      const accessoriesAPI = async()=> {
       try{
-        
-        const res = await fetch('http://localhost:5000/api/products/accessories')
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/accessories`)
 
       if(!res.ok){
         throw new Error("response is not ok")
