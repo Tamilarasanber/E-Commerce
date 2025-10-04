@@ -1,0 +1,11 @@
+# Node modules ignore pannum
+node_modules/
+**/node_modules/
+# Logs ignore
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Build files
+dist/
+build/
+.env
