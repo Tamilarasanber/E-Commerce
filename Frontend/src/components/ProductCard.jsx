@@ -8,11 +8,11 @@ const ProductCard = ({ product }) => {
   
 
   // Check based on id + category
-  const isInCart = cartItems.some(item => item.id === product.id && item.category === product.category);
+  const isInCart = cartItems.some(item => item.id === product.id );
 
   const handleCartAction = () => {
     if (isInCart) {
-      dispatch(removeFromCart({ id: product.id, category: product.category }));
+      dispatch(removeFromCart({ id: product.id }));
     } else {
       dispatch(addToCart(product));
     }
@@ -25,7 +25,7 @@ const ProductCard = ({ product }) => {
 
       <h3 className="font-semibold mb-2">{product.name}</h3>
       <p className="text-lg mb-1">₹{product.price.toFixed(2)}</p>
-      <p className="text-sm text-gray-500 mb-4 capitalize">{product.category || 'Uncategorized'}</p>
+      
       <button
         onClick={handleCartAction}
         className={`py-2 rounded text-white ${isInCart ? 'bg-red-600 hover:bg-red-700' : 'bg-blue-600 hover:bg-blue-700'}`}
