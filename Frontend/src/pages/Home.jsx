@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import Hero from '../components/Hero';
 
 // Demo thumbnail data, can be replaced with images/icons if needed
@@ -17,15 +18,14 @@ const Home = () => {
         <h2 className="text-2xl font-bold mb-6 text-center">Shop by Category</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {thumbnails.map((thumb) => (
-            <a
-              key={thumb.label}
-              href={thumb.href}
-              className={`flex flex-col items-center justify-center h-32 rounded-lg shadow-md hover:shadow-xl transition border ${thumb.bg}`}
-            >
+           
+            
+            <Link to= {thumb.href} className={`flex flex-col items-center justify-center h-32 rounded-lg shadow-md hover:shadow-xl transition border ${thumb.bg}`} key={thumb.label}>
               {/* Example icon placeholder */}
               <span className="text-4xl mb-2">{thumb.icons}</span>
               <span className="text-xl font-semibold">{thumb.label}</span>
-            </a>
+            </Link>
+            
           ))}
         </div>
       </section>
