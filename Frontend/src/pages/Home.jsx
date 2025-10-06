@@ -22,9 +22,9 @@ const Home = () => {
             
             <Link to= {thumb.href} className={`flex flex-col items-center justify-center h-32 rounded-lg shadow-md hover:shadow-xl transition border ${thumb.bg}`} key={thumb.label}>
               {/* Example icon placeholder */}
-              <span className="text-4xl mb-2">{thumb.icons}</span>
+              <span className="text-4xl mb-2">{thumb.icons}</span> 
               <span className="text-xl font-semibold">{thumb.label}</span>
-            </Link>
+            </Link>  
             
           ))}
         </div>
